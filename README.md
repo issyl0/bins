@@ -4,6 +4,7 @@ Very hacky, only works for Horsham council.
 
 Requirements:
 
-```
-export BINS_ADDRESS="<number>, <road name>, <area name>, Horsham, West Sussex, <postcode>"
+```shell
+docker build . -t issyl0/bins
+docker run -p 4567:4567 issyl0/bins -e BINS_ADDRESS="<number>, <road>, <area>, Horsham, West Sussex, <postcode>"
 ```
