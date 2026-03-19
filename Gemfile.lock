@@ -14,7 +14,7 @@ GEM
       net-http (~> 0.5)
     http-cookie (1.0.8)
       domain_name (~> 0.5)
-    json (2.18.1)
+    json (2.19.2)
     logger (1.7.0)
     mechanize (2.14.0)
       addressable (~> 2.8)
